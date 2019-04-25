@@ -14,6 +14,10 @@ enum Sport: String, Codable {
     case football
     case hockey
     case soccer
+    case hammer
+    case food
+    case pawprint
+    case book
 }
 
 struct SportsEvent: Codable {
