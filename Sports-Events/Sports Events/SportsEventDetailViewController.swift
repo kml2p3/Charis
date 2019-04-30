@@ -13,6 +13,9 @@ class SportsEventDetailViewController: UIViewController {
     @IBOutlet weak var matchupLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     
+    @IBOutlet weak var linkLabel: UILabel!
+   
+    
     let dateFormatter = DateFormatter()
     
     var sportsEvent: SportsEvent?
@@ -30,6 +33,9 @@ class SportsEventDetailViewController: UIViewController {
         sportImageView.image = UIImage(named: sportsEvent.sport.rawValue)
         matchupLabel.text = sportsEvent.matchup
         dateLabel.text = dateFormatter.string(from: sportsEvent.date)
+        
+        linkLabel.text = sportsEvent.link
+
     }
     
 

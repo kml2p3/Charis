@@ -4,82 +4,98 @@
 	   {
 	   "sport": "hammer",
 	   "matchup" : "Habitat For Humanity, Columbia, MO",
-	   "date" : "2019-05-23T18:00:00Z"
+	   "date" : "2019-05-23T18:00:00Z",
+       "link" : "https://www.showmehabitat.org/"
 	   },
 	   {
 	   "sport": "hammer",
 	   "matchup" : "Habitat For Humanity, Columbia, MO",
-	   "date" : "2019-05-28T18:30:00Z"
+	   "date" : "2019-05-28T18:30:00Z",
+       "link" : "https://www.showmehabitat.org/"
 	   },
 	   {
 	   "sport": "hammer",
 	   "matchup" : "Construction Site Building, Booneville, MO",
-	   "date" : "2017-05-28T19:00:00Z"
+	   "date" : "2017-05-28T19:00:00Z",
+       "link" : "https://boonvillemo.org/"
 	   },
 	   {
 	   "sport": "hammer",
 	   "matchup" : "Habitat For Humanity, Columbia, MO",
-	   "date" : "2017-05-29T19:00:00Z"
+	   "date" : "2017-05-29T19:00:00Z",
+       "link" : "https://www.showmehabitat.org/"
 	   },
 	   {
 	   "sport": "hammer",
-	   "matchup" : "Counting Consturction Material for Habitat, Columbia, MO",
-	   "date" : "2017-02-31T21:30:00Z"
+	   "matchup" : "Counting Construction Material for Habitat, Columbia, MO",
+	   "date" : "2017-02-31T21:30:00Z",
+       "link" : "https://www.showmehabitat.org/"
 	   },
 	   {
 	   "sport": "food",
 	   "matchup" : "Food Bank Shift, Columbia, MO",
-	   "date" : "2019-04-28T19:30:00Z"
+	   "date" : "2019-04-28T19:30:00Z",
+       "link" : "https://sharefoodbringhope.org/"
 	   },
 	   {
 	   "sport": "food",
 	   "matchup" : "Ronald McDonald House, Columbia, MO",
-	   "date" : "2019-04-29T20:00:00Z"
+	   "date" : "2019-04-29T20:00:00Z",
+       "link" : "https://rmhcmidmo.org/"
 	   },
 	   {
 	   "sport": "food",
 	   "matchup" : "Food Bank Shift, Columbia, MO",
-	   "date" : "2019-05-11T22:30:00Z"
+	   "date" : "2019-05-11T22:30:00Z",
+       "link" : "https://sharefoodbringhope.org/"
 	   },
 	   {
 	   "sport": "pawprint",
 	   "matchup" : "Central Missouri Humane Society, Columbia, MO",
-	   "date" : "2019-05-01T14:30:00Z"
+	   "date" : "2019-05-01T14:30:00Z",
+       "link" : "https://www.cmhspets.org/"
 	   },
 	   {
 	   "sport": "pawprint",
 	   "matchup" : "Paws for a Cause, Columbia, MO",
-	   "date" : "2019-05-11T16:30:00Z"
+	   "date" : "2019-05-11T16:30:00Z",
+       "link" : "https://paws4acauseinc.wixsite.com/give"
 	   },
 	   {
 	   "sport": "pawprint",
 	   "matchup" : "Central Missouri Humane Society, Columbia, MO",
-	   "date" : "2019-05-12T17:30:00Z"
+	   "date" : "2019-05-12T17:30:00Z",
+       "link" : "https://www.cmhspets.org/"
 	   },
 	   {
 	   "sport": "pawprint",
-	   "matchup" : "Ceader Creek Therapuetic Riding Center, Columbia,MO",
-	   "date" : "2019-05-13T14:30:00Z"
+	   "matchup" : "Cedar Creek Therapuetic Riding Center, Columbia,MO",
+	   "date" : "2019-05-13T14:30:00Z",
+       "link" : "http://cedarcreek.missouri.org/"
 	   },
 	   {
 	   "sport": "book",
 	   "matchup" : "Boys & Girls Club, Columbia, MO",
-	   "date" : "2019-05-20T16:30:00Z"
+	   "date" : "2019-05-20T16:30:00Z",
+       "link" : "https://www.bgc-columbia.org/"
 	   },
 	   {
 	   "sport": "book",
 	   "matchup" : "Boys & Girls Club, Columbia, MO",
-	   "date" : "2019-05-25T14:30:00Z"
+	   "date" : "2019-05-25T14:30:00Z",
+       "link" : "https://www.bgc-columbia.org/"
 	   },
 	   {
 	   "sport": "book",
 	   "matchup" : "Reading to Classroom, Columbia, MO",
-	   "date" : "2019-05-26T16:00:00Z"
+	   "date" : "2019-05-26T16:00:00Z",
+       "link" : "https://www.cpsk12.org/rwe"
 	   },
 	   {
 	   "sport": "book",
 	   "matchup" : "Boys & Girls Club, Columbia, MO",
-	   "date" : "2018-05-30T14:30:00Z"
+	   "date" : "2018-05-30T14:30:00Z",
+       "link" : "https://www.bgc-columbia.org/"
 	   },
 	]
 }

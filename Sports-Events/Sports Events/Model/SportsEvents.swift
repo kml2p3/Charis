@@ -24,6 +24,7 @@ struct SportsEvent: Codable {
     var sport: Sport
     var matchup: String
     var date: Date
+    var link: String
 }
 
 struct SportsEvents: Codable {
