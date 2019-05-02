@@ -20,7 +20,6 @@
 		2D596E48221F2BE50074C034 /* SportsEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D596E47221F2BE50074C034 /* SportsEventTableViewCell.swift */; };
 		2D596E4A221F2EE40074C034 /* SportsEventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D596E49221F2EE40074C034 /* SportsEventDetailViewController.swift */; };
 		2D7FCF6A221C77B200314560 /* SportsEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7FCF69221C77B200314560 /* SportsEventsViewController.swift */; };
-		AC8B2668227B6D6000B6192D /* CharisNoBack.gif in Resources */ = {isa = PBXBuildFile; fileRef = AC8B2667227B6D6000B6192D /* CharisNoBack.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +59,6 @@
 		2D596E47221F2BE50074C034 /* SportsEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsEventTableViewCell.swift; sourceTree = "<group>"; };
 		2D596E49221F2EE40074C034 /* SportsEventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsEventDetailViewController.swift; sourceTree = "<group>"; };
 		2D7FCF69221C77B200314560 /* SportsEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsEventsViewController.swift; sourceTree = "<group>"; };
-		AC8B2667227B6D6000B6192D /* CharisNoBack.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CharisNoBack.gif; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +109,6 @@
 		2D4FF1402193A784007AB48E /* Sports Events */ = {
 			isa = PBXGroup;
 			children = (
-				AC8B2667227B6D6000B6192D /* CharisNoBack.gif */,
 				2D4FF1722193A793007AB48E /* Model */,
 				2D4FF1412193A784007AB48E /* AppDelegate.swift */,
 				2D7FCF69221C77B200314560 /* SportsEventsViewController.swift */,
@@ -262,7 +259,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D4FF14F2193A785007AB48E /* LaunchScreen.storyboard in Resources */,
-				AC8B2668227B6D6000B6192D /* CharisNoBack.gif in Resources */,
 				2D4FF1782193AB26007AB48E /* sports_events.json in Resources */,
 				2D4FF14C2193A785007AB48E /* Assets.xcassets in Resources */,
 				2D4FF1472193A784007AB48E /* Main.storyboard in Resources */,
