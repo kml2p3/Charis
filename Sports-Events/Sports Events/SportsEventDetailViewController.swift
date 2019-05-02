@@ -12,6 +12,7 @@ class SportsEventDetailViewController: UIViewController {
     @IBOutlet weak var sportImageView: UIImageView!
     @IBOutlet weak var matchupLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var webviewButton: UIButton!
     
     @IBOutlet weak var linkLabel: UILabel!
    
@@ -20,6 +21,7 @@ class SportsEventDetailViewController: UIViewController {
     
     var sportsEvent: SportsEvent?
     
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -36,6 +38,7 @@ class SportsEventDetailViewController: UIViewController {
         
         linkLabel.text = sportsEvent.link
 
+        
     }
     
 
