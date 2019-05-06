@@ -141,7 +141,7 @@
         <!--Create an Event-->
         <scene sceneID="TxU-wk-Tdk">
             <objects>
-                <viewController title="Create an Event" id="iP8-TX-BfW" sceneMemberID="viewController">
+                <viewController title="Create an Event" id="iP8-TX-BfW" customClass="CreateEventViewController" customModule="Sports_Events" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="I3F-Ex-vDS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -185,6 +185,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sw6-zQ-Jp0">
                                 <rect key="frame" x="182.5" y="632" width="49" height="30"/>
                                 <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="submitEvent:" destination="iP8-TX-BfW" eventType="touchUpInside" id="fWe-4w-MSq"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -193,6 +196,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="adF-fn-7mO" secondAttribute="trailing" id="Dtn-HC-pVX"/>
                             <constraint firstItem="sw6-zQ-Jp0" firstAttribute="top" secondItem="LlH-dG-RfA" secondAttribute="bottom" constant="50" id="I2i-WD-Vnc"/>
                             <constraint firstItem="WQk-7P-ZSK" firstAttribute="top" secondItem="adF-fn-7mO" secondAttribute="bottom" constant="50" id="JXI-fj-nS2"/>
+                            <constraint firstItem="EOh-6f-7Io" firstAttribute="trailing" secondItem="sw6-zQ-Jp0" secondAttribute="trailing" constant="182.5" id="KUF-ji-7xl"/>
                             <constraint firstItem="EOh-6f-7Io" firstAttribute="trailing" secondItem="jad-Zf-2ay" secondAttribute="trailing" constant="25" id="L2z-eg-ui9"/>
                             <constraint firstItem="EOh-6f-7Io" firstAttribute="trailing" secondItem="WQk-7P-ZSK" secondAttribute="trailing" constant="288" id="LpU-nY-g5q"/>
                             <constraint firstItem="5sD-RZ-H3b" firstAttribute="leading" secondItem="EOh-6f-7Io" secondAttribute="leading" constant="25" id="TYI-VS-9xP"/>
@@ -214,6 +218,10 @@
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="titleBox" destination="jad-Zf-2ay" id="BS5-7U-fWN"/>
+                        <outlet property="websiteBox" destination="LlH-dG-RfA" id="k3j-tx-K8a"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mME-4S-7bi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
