@@ -23,7 +23,7 @@ class SportsEventsViewController: UIViewController, UITableViewDelegate, UITable
         dateFormatter.dateStyle = .medium
         dateFormatter.timeStyle = .medium
         
-        self.title = "Events Near You"
+        self.title = "Songs"
         
         sportsEvents = SportsEventsLoader.load(jsonFileName: jsonFileName)
         

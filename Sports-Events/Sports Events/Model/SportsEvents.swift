@@ -9,15 +9,10 @@
 import Foundation
 
 enum Sport: String, Codable {
-    case baseball
-    case basketball
-    case football
-    case hockey
-    case soccer
-    case hammer
-    case food
-    case pawprint
-    case book
+    case Hammer
+    case Food
+    case Pawprint
+    case Book
 }
 
 struct SportsEvent: Codable {
